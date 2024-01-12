@@ -10,9 +10,9 @@
         p {
             text-align: justify;
         }
-        #logo{
-            width:50px
 
+        #logo {
+            width: 50px
         }
     </style>
 </head>
@@ -24,7 +24,8 @@
         <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img id="logo" src="./assets/img/3430592_avatar_driving_female_woman_icon.svg">
+                    <img id="logo"
+                        src="./assets/img/2890589_ai_artificial intelligence_brain_electronics_robotics_icon.png">
                 </a>
 
 
@@ -42,9 +43,8 @@
                             <a class="nav-link text-white" href="#galerie">Galerie</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link text-white" href="#contact" 
-                                aria-expanded="false">Contact</a>
-                
+                            <a class="nav-link text-white" href="#contact" aria-expanded="false">Contact</a>
+
                         </li>
 
                     </ul>
@@ -59,11 +59,62 @@
         <H1 class="text-center mb-4 mt-4">Mobile first</H1>
     </header>
     <!-- END HEADER -->
+
+
     <!-- main -->
     <main class="container-fluid">
         <section class=" mb-4 mt-4" id="home">
+            <!-- START HOME -->
             <h2 class=" mb-4">Home</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sunt provident sint nihil? Tenetur
+            <!-- START CAROUSEL -->
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/technology-1283624_1280.jpg" class="d-block w-100 h-100" alt="canard">
+                        <div class="carousel-caption d-none d-md-block">
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/code-1076536_1280.jpg" class="d-block w-100 h-100" alt="canard">
+                        <div class="carousel-caption d-none d-md-block">
+
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/computer-1873831_1280.png" class="d-block w-100 h-100" alt="magret">
+                        <div class="carousel-caption d-none d-md-block">
+
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--END CAROUSEL   -->
+            <h3 class="mt-4">What a wonderfull mobile world</h3>
+
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sunt provident sint nihil?
+                Tenetur
                 nobis laboriosam asperiores molestias repellendus facere voluptatibus. Id officia delectus deleniti modi
                 eius illo repellat ab illum necessitatibus et nemo, doloribus ratione impedit ipsum, harum sunt omnis
                 soluta quis dicta numquam? Deserunt id, eaque aliquid explicabo odit veritatis rerum maxime laudantium.
@@ -75,10 +126,50 @@
                 voluptatibus, et aliquam quis exercitationem impedit harum, amet quae explicabo iusto a eligendi
                 voluptate delectus velit nihil mollitia unde omnis? Perspiciatis odio ducimus ea odit.
             </p>
+            <!-- FIN HOME -->
         </section>
-        <section class=" mb-4 mt-4" id="galerie">
+        <!-- START GALERIE -->
+
+        <section class=" mb-4 mt-4 row" id="galerie">
             <h2 class=" mb-4">Galerie</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sunt provident sint nihil? Tenetur
+            <div class="col-12 col-md-4">
+                <!-- CARD 1 -->
+                <div class="card">
+                    <img src="./assets/img/artificial-intelligence-2167835_1280.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Programme</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <!-- CARD 1 -->
+                <div class="card">
+                    <img src="./assets/img/dog-4977599_1280.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Informatique</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <!-- CARD 1 -->
+                <div class="card">
+                    <img src="./assets/img/board-453758_1280.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Puces</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sunt provident sint nihil?
+                Tenetur
                 nobis laboriosam asperiores molestias repellendus facere voluptatibus. Id officia delectus deleniti modi
                 eius illo repellat ab illum necessitatibus et nemo, doloribus ratione impedit ipsum, harum sunt omnis
                 soluta quis dicta numquam? Deserunt id, eaque aliquid explicabo odit veritatis rerum maxime laudantium.
@@ -90,25 +181,47 @@
                 voluptatibus, et aliquam quis exercitationem impedit harum, amet quae explicabo iusto a eligendi
                 voluptate delectus velit nihil mollitia unde omnis? Perspiciatis odio ducimus ea odit.
             </p>
+            <!-- FIN GALERIE -->
         </section>
+        <!-- START Contact -->
         <section class=" mb-4 mt-4" id="contact">
+
+
             <h2 class=" mb-4">Contact</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sunt provident sint nihil? Tenetur
-                nobis laboriosam asperiores molestias repellendus facere voluptatibus. Id officia delectus deleniti modi
-                eius illo repellat ab illum necessitatibus et nemo, doloribus ratione impedit ipsum, harum sunt omnis
-                soluta quis dicta numquam? Deserunt id, eaque aliquid explicabo odit veritatis rerum maxime laudantium.
-                Optio quo accusamus doloribus esse totam? Quae autem rem cupiditate. Explicabo laborum ad ducimus
-                dolorum officia, nesciunt molestiae at. Hic quidem adipisci, rerum recusandae dolore atque vero
-                obcaecati facere neque eaque dolor! Veniam, sed nam possimus harum esse ab quis nihil rerum?
-                Exercitationem ipsam animi placeat accusamus aliquam est officia consequatur minus aliquid nemo illum
-                pariatur harum at iure officiis tempore, quo velit porro ipsa cumque? Totam praesentium iste
-                voluptatibus, et aliquam quis exercitationem impedit harum, amet quae explicabo iusto a eligendi
-                voluptate delectus velit nihil mollitia unde omnis? Perspiciatis odio ducimus ea odit.
-            </p>
+            <div class="row align-items-start">
+                   
+    
+                <div class="col-12 col-md-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quos sunt provident sint nihil? Tenetur
+                    nobis laboriosam asperiores molestias repellendus facere voluptatibus. Id officia delectus deleniti
+                    modi
+                    eius illo repellat ab illum necessitatibus et nemo, doloribus ratione impedit ipsum, harum sunt
+                    omnis
+                    soluta quis dicta numquam? Deserunt id, eaque aliquid explicabo odit veritatis rerum maxime
+                    laudantium.
+                    Optio quo accusamus doloribus esse totam? Quae autem rem cupiditate. Explicabo laborum ad ducimus
+                    dolorum officia, nesciunt molestiae at. Hic quidem adipisci, rerum recusandae dolore atque vero
+                    obcaecati facere neque eaque dolor! Veniam, sed nam possimus harum esse ab quis nihil rerum?
+                    Exercitationem ipsam animi placeat accusamus aliquam est officia consequatur minus aliquid nemo
+                    illum
+                    pariatur harum at iure officiis tempore, quo velit porro ipsa cumque? Totam praesentium iste
+                    voluptatibus, et aliquam quis exercitationem impedit harum, amet quae explicabo iusto a eligendi
+                    voluptate delectus velit nihil mollitia unde omnis? Perspiciatis odio ducimus ea odit.
+                </p>
+                      </div>
+          
+            <div class="col-12 col-md-6 ">
+                <iframe class="ms-auto"
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d89057.34981466846!2d4.722939425444916!3d45.770344884370616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47f4eb7391fcf843%3A0xf4170493513eaa9f!2s36%20Rue%20du%20Sergent%20Michel%20Berthet%2C%2069009%20Lyon!3m2!1d45.770374499999996!2d4.80534!5e0!3m2!1sfr!2sfr!4v1705069854598!5m2!1sfr!2sfr"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </section>
+        <!-- FIN CONTACT -->
     </main>
 
-    <!-- Fin main -->
+    <!-- END main -->
 
     <!-- FOOTER -->
     <footer class="mt-4 p-4 bg-dark text-white">
